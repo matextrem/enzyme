@@ -1,0 +1,27 @@
+{
+	"all": true,
+	"cache": true,
+	"check-coverage": true,
+	"reporter": ["text-summary", "text", "html", "json"],
+	"sourceMap": false,
+	"instrument": false,
+	"lines": 100,
+	"statements": 100,
+	"functions": 100,
+	"branches": 100,
+	"exclude": [
+		"_book",
+		"coverage",
+		"docs",
+		"env.js",
+		"karma.conf.js",
+		"packages/enzyme/withDom.js",
+		"packages/enzyme-test-suite",
+		"packages/enzyme-example-mocha",
+		"since.js",
+		"test"
+	],
+	"require": [
+		"babel-register"
+	]
+}
